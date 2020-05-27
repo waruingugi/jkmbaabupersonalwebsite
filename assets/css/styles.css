@@ -3,7 +3,7 @@ body {
 }
 
 .navbar-brand {
-  color:#06D6A0 !important;
+  color:#06AD60 !important;
   font-weight:bold;
 }
 
@@ -22,7 +22,7 @@ body {
   margin-top:1rem;
   border-radius:5px;
   color:white;
-  background-color:#06d6a0;
+  background-color:#06AD60;
 }
 
 #first-section #image-icon {
@@ -42,6 +42,10 @@ body {
   margin:auto 5px;
   padding:10px;
   border-style:none;
+  background-image:url("../../assets/img/455.jpg");
+  background-position:center;
+  background-size:cover;
+  background-repeat:no-repeat;
 }
 
 @media (min-width: 768px) {
@@ -51,7 +55,6 @@ body {
     padding:10px;
     width:80%;
     border-style:none;
-    background-color:rgba(255,255,255,0.95);
   }
 }
 
@@ -81,7 +84,7 @@ body {
 
 #second-section .card, #third-section .card {
   margin-top:15px;
-  background-image:url("../../assets/img/Clipart-Email-12257969.png");
+  background-image:url("../../assets/img/455.jpg");
   background-position:center;
   background-size:cover;
   background-repeat:no-repeat;
@@ -95,7 +98,7 @@ body {
 }
 
 .text-green {
-  color:#06D6A0;
+  color:#06AD60;
 }
 
 #second-section .card-body, #third-section .card-body {

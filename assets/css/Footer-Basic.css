@@ -61,3 +61,14 @@
   margin-bottom:0;
 }
 
+#first-section .container {
+  background-color:#ffffff;
+}
+
+.navbar-light .navbar-nav .nav-link:focus {
+  border-radius:5px;
+  color:#fff;
+  padding-left:5px;
+  background-color:#06AD60;
+}
+
