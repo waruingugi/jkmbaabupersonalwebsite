@@ -35,9 +35,9 @@ body {
 }
 
 #first-section {
-  -webkit-box-shadow:10px 10px 15px -7px rgba(0,0,0,0.5);
-  -moz-box-shadow:10px 10px 15px -7px rgba(0,0,0,0.5);
-  box-shadow:10px 10px 23px -7px rgba(0,0,0,0.5);
+  -webkit-box-shadow:10px 10px 20px -5px rgba(0,0,0,0.75);
+  -moz-box-shadow:10px 10px 20px -5px rgba(0,0,0,0.75);
+  box-shadow:10px 10px 20px -5px rgba(0,0,0,0.75);
   border-radius:10px;
   margin:auto 5px;
   padding:10px;
@@ -114,8 +114,8 @@ body {
 }
 
 #footer {
-  margin-top:-2vh;
-  height:8vh;
+  margin-top:-4vh;
+  height:15vh;
   background-image:url("wave (1).svg");
   background-position:top;
   background-size:cover;
@@ -125,7 +125,7 @@ body {
 @media (min-width: 576px) {
   #footer {
     margin-top:-8vh;
-    height:15vh;
+    height:18vh;
     background-position:top;
     background-size:cover;
   }
@@ -135,6 +135,23 @@ body {
   #intro-image {
     background-size:contain;
     height:50vh;
+  }
+}
+
+#first-section .container {
+  background-color:#ffffff;
+}
+
+.navbar-light .navbar-nav .nav-link:focus {
+  border-radius:5px;
+  color:#fff;
+  padding-left:5px;
+  background-color:#06AD60;
+}
+
+@media (max-width: 768px) {
+  #cover {
+    background-position:53% 15%;
   }
 }
 
