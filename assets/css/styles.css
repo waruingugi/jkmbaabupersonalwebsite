@@ -151,7 +151,7 @@ body {
 
 @media (max-width: 768px) {
   #cover {
-    background-position:53% 25%;
+    background-position:53% 40%;
   }
 }
 
@@ -190,13 +190,6 @@ body {
   .carousel-item {
     margin:auto auto;
   }
-}
-
-#second-cover {
-  background-image:url("../../assets/img/bottom_wave_curly.png");
-  background-position:bottom;
-  background-size:cover;
-  background-repeat:no-repeat;
 }
 
 #fifth-section {
