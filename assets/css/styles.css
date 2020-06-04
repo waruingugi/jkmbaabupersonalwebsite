@@ -18,7 +18,7 @@ body {
   background-repeat:no-repeat;
 }
 
-#first-section #full-name, #third-section #work-station, #fourth-section #joy-in-summary, #fifth-section #full-name {
+#first-section #full-name, #third-section #work-station, #fourth-section #joy-in-summary, #fifth-section #full-name, #full-name {
   margin-top:1rem;
   border-radius:5px;
   color:white;
@@ -82,7 +82,7 @@ body {
   margin:2rem auto;
 }
 
-#second-section .card, #third-section .card, #fifth-section .card {
+#second-section .card, #third-section .card, #fifth-section .card, #eighth-section .card {
   margin-top:15px;
   background-image:url("../../assets/img/455.jpg");
   background-position:center;
@@ -101,7 +101,7 @@ body {
   color:#06AD60;
 }
 
-#second-section .card-body, #third-section .card-body, #fifth-section .card-body {
+#second-section .card-body, #third-section .card-body, #fifth-section .card-body, #eighth-section .card-body {
   background-color:#fff;
   margin:6px;
 }
@@ -192,8 +192,10 @@ body {
   }
 }
 
-#fifth-section {
-  padding-top:1.5rem;
+@media (min-width: 768px) {
+  #fifth-section {
+    padding-top:1.5rem;
+  }
 }
 
 #card-image {
@@ -261,5 +263,48 @@ body {
 #paragraph-card-two {
   border-radius:5px 35px 35px 35px;
   border:2px solid #06D6A0;
+}
+
+@media (min-width: 576px) {
+  #seventh-section #full-name {
+    width:60%;
+  }
+}
+
+.main {
+  overflow:hidden;
+  height:280px;
+}
+
+@media (min-width: 350px) {
+  .main {
+    overflow:hidden;
+    height:260px;
+  }
+}
+
+@media (min-width: 400px) {
+  .main {
+    overflow:hidden;
+    height:230px;
+  }
+}
+
+@media (min-width: 500px) {
+  .main {
+    overflow:hidden;
+    height:210px;
+  }
+}
+
+@media (min-width: 750px) {
+  .main {
+    overflow:hidden;
+    height:280px;
+  }
+}
+
+.tps-wrapper {
+  height:auto !important;
 }
 
